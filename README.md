@@ -1,0 +1,2 @@
+# Javascript '+' operator unexpected behavior with numbers and strings
+This code demonstrates an uncommon error in JavaScript related to the '+' operator's behavior when dealing with numbers and strings.  The '+' operator in Javascript performs both string concatenation and addition. If one operand is a string, the other is converted to a string before concatenation, which causes unexpected results when numbers and strings are involved. The bug.js file shows this behavior, while bugSolution.js provides a solution using explicit type checking or the Number() method.
